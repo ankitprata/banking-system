@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    /* place-items: center; */
+    /* background: #282a36; */
+    background: -webkit-linear-gradient(right,
+            #003366,
+            #004080,
+            #0059b3,
+            #0073e6);
+}
+
+#newaccount {
+    background: -webkit-linear-gradient(right,
+            #003366,
+            #004080,
+            #0059b3,
+            #0073e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#register {
+    width: 300px;
+    background: -webkit-linear-gradient(right,
+            #003366,
+            #004080,
+            #0059b3,
+            #0073e6);
+
+}
+
+#register:hover {
+    background: #0073e6;
+    color: #282a36;
+
+}
+
+
+#register2 {
+    width: 100px;
+    background: -webkit-linear-gradient(right,
+            #003366,
+            #004080,
+            #0059b3,
+            #0073e6
+    );
+
+}
+
+#register2:hover {
+    background: #0073e6;
+    color: #282a36;
+
+}
+
+#submit {
+
+    width: 200px;
+    background: -webkit-linear-gradient(right,
+            #003366,
+            #004080,
+            #0059b3,
+            #0073e6
+            
+    );
+
+}
+
+#submit:hover {
+    background: #0073e6;
+    color: white;
+
+}
